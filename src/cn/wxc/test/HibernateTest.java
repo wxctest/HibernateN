@@ -28,6 +28,7 @@ public class HibernateTest {
             List<Customer> list = query.list();
             for (Customer customer : list) {
                 System.out.println(customer.getCid() + ":" + customer.getCustName());
+                System.out.println("asdfasf");
             }
 
             tx.commit();
